@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000e3;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header a, h1 {
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-right: 40px;
+    font-size: 1rem;
+    list-style: none;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
