@@ -128,8 +128,16 @@ img {
     border-radius: 4px;
 }
 
+.sobre-item:hover {
+    padding: 15px;
+}
+
 .sobre-item h3 {
     margin-bottom: 10px;
+}
+
+#containerProduto {
+    display: grid;
 }
 
 #containerProduto h2 {
@@ -139,8 +147,37 @@ img {
     text-transform: uppercase;
 }
 
-#listaBeneficios {
+#containerBeneficios {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#imgProduto {
+    display: flex;
+    margin: 20px 0px 30px 100px; /*Alinhar ao centro da div sem usar margin*/
+}
+
+#imgProduto > img {
+    border-radius: 5px;
+    align-self: center;
+}
+
+#listaBeneficios {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.beneficio-item {
+    padding: 10px;
+}
+
+.beneficio-item:hover {
+    border-left: 4px solid black;
+}
+
+#opiniaoClientes {
+    background-color: black;
+    color: white;
 }
