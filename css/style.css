@@ -241,3 +241,37 @@ footer a {
 footer a:hover {
     color: rgb(48, 48, 202);
 }
+
+@media (max-width: 730px) {
+    
+    #containerSobre {
+        grid-template-columns: 1fr;
+        margin: 30px;
+    }
+    
+    #containerBeneficios {
+        grid-template-columns: 1fr;
+    }
+
+    #imgProduto {
+        margin: 0 auto;
+    }
+
+    #listaBeneficios {
+        margin: 50px;
+    }
+}
+
+@media (max-width: 730px) {
+    #clientes {
+        grid-template-columns: 1fr;
+    }
+    .imgClientes {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    #galeria {
+        grid-template-columns: 1fr;
+        margin: 40px;
+    }
+}
